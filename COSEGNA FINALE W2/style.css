@@ -21,7 +21,7 @@ main{
     padding: 0;
     display: flex;
     justify-content: flex-start;
-    position: fixed; 
+     
     background-color: white;
 }
 
