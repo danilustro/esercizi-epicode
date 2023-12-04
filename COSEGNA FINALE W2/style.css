@@ -100,7 +100,11 @@ main{
     border-bottom: 1px solid gray;
     display: flex;
     justify-content: flex-start;
-  
+}
+
+.buttonSpan:hover{
+    color: black;
+    border-bottom: 1px solid black;
 }
 
 .buttonSpan{
@@ -177,6 +181,7 @@ main{
     height: 40px;
     padding: 0;
     margin: 0;
+    border-radius: 10px;
 }
 
 .imgBox{
@@ -201,6 +206,7 @@ main{
     flex-direction: column;
     width: 30%;
     margin-top: 100px;
+    
 }
 
 .twitterBox{
@@ -339,4 +345,25 @@ main{
     width: 80px;
     height: 30px;
     margin-top: 10px;
+}
+
+.savedDiv{
+    margin: 0px 60px 50px 60px;
+}
+
+.footerDiv{
+     margin: 400px 60px 50px 60px;
+     height: 100%;
+     
+}
+
+.footerText{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerLink{
+    padding: 20px;
+    color: gray;
+    text-decoration: none;
 }
