@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    
+    <nav class="container">
+        <div class="row">
+            <div class="col">
+                <div class="navbar navbar-expand-md">
+                    <img class="navbar-brand" src="./assets/Netflix_Logo_RGB.png" alt="logo">
+
+                    <div class="d-flex align-items-center gap-2 gap-md-3 order-md-2">
+                        <ion-icon class="nav-search" name="search-outline"></ion-icon>
+                        <a class="nav-link" href="">KIDS</a>
+                        <ion-icon class="nav-notify" name="notifications-outline"></ion-icon>
+                        <div class="dropdown dropdown-toggle ">
+                            <a role="button" data-bs-toggle="dropdown" href="">
+                                <img src="https://picsum.photos/32/32" alt="user">
+                            </a>
+                            <div class="dropdown-menu p-0">
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        Account
+                                    </li>
+                                    <li class="list-group-item">
+                                        Settings
+                                    </li>
+                                    <li class="list-group-item">
+                                        Logout
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="navbar-toggler border nav-btn-style p-1" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbar-menu">
+                            <ion-icon class="navbar-menu-btn" name="menu-outline"></ion-icon>
+                        </button>
+                    </div>
+
+                    <div id="navbar-menu" class="collapse navbar-collapse order-md-1">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">TV Shows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Movies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Recently Added</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">My List</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- TV Show -->
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex justify-content-between">
+                    <div class="d-flex align-items-center gap-4">
+                        <h1>TV Shows</h1>
+                        <select name="Genres" id="genres">
+                            <option disabled selected>Genres</option>
+                            <option value="">Action</option>
+                            <option value="">Anime</option>
+                            <option value="">Commedy</option>
+                            <option value="">Drama</option>
+                            <option value="">Thriller</option>
+                            <option value="">Horror</option>
+                            <option value="">Documentary</option>
+                        </select>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-1">
+                        <ion-icon class="apps-icon py-1 px-2" name="apps"></ion-icon>
+                        <ion-icon class="grid-icon py-1 px-2" name="grid"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row py-5 carousel">
+                <div class="col overflow-hidden">
+                    <h3>Trending Now</h3>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="row pb-5 carousel">
+                <div class="col overflow-hidden">
+                    <h3>Watch it Again</h3>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pb-5 carousel">
+                <div class="col overflow-hidden">
+                    <h3>New Realeses</h3>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pb-5 carousel">
+                <div class="col overflow-hidden">
+                    <h3>Upcoming</h3>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-container position-relative">
+                                    <div class="card-description p-2">
+                                        <h2>Lorem</h2>
+                                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, enim!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+
+    <footer class="container d-flex flex-column gap-3 mb-3">
+        <div class="row">
+            <div class="col d-flex gap-4 footer-icons-container">
+                <div class="footer-icons">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </div>
+                <div class="footer-icons">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </div>
+                <div class="footer-icons">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </div>
+                <div class="footer-icons">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+        <div class="row footer-links d-flex row-gap-3">
+            <div class="col-6 col-md-3">
+                <ul>
+                    <li>
+                        <a class="footer-list-link" href="">Audio and Subtitle</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Media Center</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Privacy</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-3">
+                <ul>
+                    <li>
+                        <a class="footer-list-link" href="">Audio Description</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Investor Relations</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Legal Notices</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-3">
+                <ul>
+                    <li>
+                        <a class="footer-list-link" href="">Help Center</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Jobs</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Cookie Preferences</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-3">
+                <ul>
+                    <li>
+                        <a class="footer-list-link" href="">Gift Cards</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Terms of Use</a>
+                    </li>
+                    <li>
+                        <a class="footer-list-link" href="">Corporate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button class="footer-button">Service Code</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col footer-copyright">
+                © 1997-2019 Netflix, Inc. {i-0d00fcda2fdf9c0de}
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
